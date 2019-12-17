@@ -1,0 +1,53 @@
+[2019-12-17 16:08:46,786] multiqc                                            [DEBUG  ]  No MultiQC config found: /home/sbhattach2/miniconda3/lib/python2.7/site-packages/multiqc-1.0.dev0-py2.7.egg/multiqc_config.yaml
+[2019-12-17 16:08:46,786] multiqc                                            [DEBUG  ]  No MultiQC config found: /home/sbhattach2/.multiqc_config.yaml
+[2019-12-17 16:08:46,786] multiqc                                            [DEBUG  ]  No MultiQC config found: multiqc_config.yaml
+[2019-12-17 16:08:46,786] multiqc                                            [DEBUG  ]  Command used: /home/sbhattach2/miniconda3/bin/multiqc /data/Suro/RAM/fastq/ -o /data/Suro/RAM/fastq
+[2019-12-17 16:08:46,787] multiqc                                            [DEBUG  ]  Could not connect to multiqc.info for version check
+[2019-12-17 16:08:46,787] multiqc                                            [INFO   ]  This is MultiQC v1.0.dev0
+[2019-12-17 16:08:46,787] multiqc                                            [DEBUG  ]  Command     : /home/sbhattach2/miniconda3/bin/multiqc /data/Suro/RAM/fastq/ -o /data/Suro/RAM/fastq
+[2019-12-17 16:08:46,787] multiqc                                            [DEBUG  ]  Working dir : /home/sbhattach2
+[2019-12-17 16:08:46,787] multiqc                                            [INFO   ]  Template    : default
+[2019-12-17 16:08:46,787] multiqc                                            [INFO   ]  Searching '/data/Suro/RAM/fastq/'
+[2019-12-17 16:08:46,787] multiqc                                            [DEBUG  ]  Analysing modules: custom_content, peddy, methylQA, qualimap, preseq, quast, rseqc, busco, goleft_indexcov, snpeff, gatk, htseq, bcftools, featureCounts, picard, prokka, samblaster, samtools, bamtools, bismark, hicup, salmon, kallisto, slamdunk, star, tophat, bowtie2, bowtie1, cutadapt, trimmomatic, skewer, fastq_screen, fastqc, clusterflow
+[2019-12-17 16:08:46,788] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /tmp/tmpocLGCM
+[2019-12-17 16:08:47,071] multiqc.modules.custom_content.custom_content      [DEBUG  ]  No custom content found
+[2019-12-17 16:08:47,078] multiqc.modules.peddy.peddy                        [DEBUG  ]  Could not find any reports in ('/data/Suro/RAM/fastq/',)
+[2019-12-17 16:08:47,082] multiqc.modules.methylQA.methylQA                  [DEBUG  ]  Could not find any reports in ('/data/Suro/RAM/fastq/',)
+[2019-12-17 16:08:47,084] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Using default Qualimap thresholds: 1, 5, 10, 30, 50
+[2019-12-17 16:08:47,093] multiqc.modules.qualimap.qualimap                  [DEBUG  ]  Could not find any reports in ('/data/Suro/RAM/fastq/',)
+[2019-12-17 16:08:47,122] multiqc.modules.preseq.preseq                      [DEBUG  ]  Could not find any preseq data in ('/data/Suro/RAM/fastq/',)
+[2019-12-17 16:08:47,125] multiqc.modules.quast.quast                        [DEBUG  ]  Could not find any reports in ('/data/Suro/RAM/fastq/',)
+[2019-12-17 16:08:47,229] multiqc.modules.rseqc.rseqc                        [DEBUG  ]  Could not find any reports in ('/data/Suro/RAM/fastq/',)
+[2019-12-17 16:08:47,232] multiqc.modules.busco.busco                        [DEBUG  ]  Could not find any reports in ('/data/Suro/RAM/fastq/',)
+[2019-12-17 16:08:47,237] multiqc.modules.goleft_indexcov.goleft_indexcov    [DEBUG  ]  Did not find goleft indexcov outputs in ('/data/Suro/RAM/fastq/',)
+[2019-12-17 16:08:47,262] multiqc.modules.snpeff.snpeff                      [DEBUG  ]  Could not find any data in ('/data/Suro/RAM/fastq/',)
+[2019-12-17 16:08:47,288] multiqc.modules.gatk.gatk                          [DEBUG  ]  Could not find any reports in ('/data/Suro/RAM/fastq/',)
+[2019-12-17 16:08:47,313] multiqc.modules.htseq.htseq                        [DEBUG  ]  Could not find any reports in ('/data/Suro/RAM/fastq/',)
+[2019-12-17 16:08:47,339] multiqc.modules.bcftools.bcftools                  [DEBUG  ]  Could not find any reports in ('/data/Suro/RAM/fastq/',)
+[2019-12-17 16:08:47,342] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Could not find any reports in ('/data/Suro/RAM/fastq/',)
+[2019-12-17 16:08:47,577] multiqc.modules.picard.picard                      [DEBUG  ]  Could not find any reports in ('/data/Suro/RAM/fastq/',)
+[2019-12-17 16:08:47,581] multiqc.modules.prokka.prokka                      [DEBUG  ]  Could not find any Prokka data in ('/data/Suro/RAM/fastq/',)
+[2019-12-17 16:08:47,606] multiqc.modules.samblaster.samblaster              [DEBUG  ]  Could not find any data in ('/data/Suro/RAM/fastq/',)
+[2019-12-17 16:08:47,680] multiqc.modules.samtools.samtools                  [DEBUG  ]  Could not find any reports in ('/data/Suro/RAM/fastq/',)
+[2019-12-17 16:08:47,705] multiqc.modules.bamtools.bamtools                  [DEBUG  ]  Could not find any reports in ('/data/Suro/RAM/fastq/',)
+[2019-12-17 16:08:47,714] multiqc.modules.bismark.bismark                    [DEBUG  ]  Could not find any reports in ('/data/Suro/RAM/fastq/',)
+[2019-12-17 16:08:47,717] multiqc.modules.hicup.hicup                        [DEBUG  ]  Could not find any HiCUP data in ('/data/Suro/RAM/fastq/',)
+[2019-12-17 16:08:47,722] multiqc.modules.salmon.salmon                      [DEBUG  ]  Could not find any Salmon data in ('/data/Suro/RAM/fastq/',)
+[2019-12-17 16:08:47,747] multiqc.modules.kallisto.kallisto                  [DEBUG  ]  Could not find any reports in ('/data/Suro/RAM/fastq/',)
+[2019-12-17 16:08:47,888] multiqc.modules.slamdunk.slamdunk                  [DEBUG  ]  No slamdunk reports found.
+[2019-12-17 16:08:47,893] multiqc.modules.star.star                          [DEBUG  ]  Could not find any reports in ('/data/Suro/RAM/fastq/',)
+[2019-12-17 16:08:47,896] multiqc.modules.tophat.tophat                      [DEBUG  ]  Could not find any reports in ('/data/Suro/RAM/fastq/',)
+[2019-12-17 16:08:47,921] multiqc.modules.bowtie2.bowtie2                    [DEBUG  ]  Could not find any reports in ('/data/Suro/RAM/fastq/',)
+[2019-12-17 16:08:47,947] multiqc.modules.bowtie1.bowtie1                    [DEBUG  ]  Could not find any reports in ('/data/Suro/RAM/fastq/',)
+[2019-12-17 16:08:47,972] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Could not find any reports in ('/data/Suro/RAM/fastq/',)
+[2019-12-17 16:08:47,997] multiqc.modules.trimmomatic.trimmomatic            [DEBUG  ]  Could not find any Trimmomatic data in ('/data/Suro/RAM/fastq/',)
+[2019-12-17 16:08:48,022] multiqc.modules.skewer.skewer                      [DEBUG  ]  Could not find any data in ('/data/Suro/RAM/fastq/',)
+[2019-12-17 16:08:48,025] multiqc.modules.fastq_screen.fastq_screen          [DEBUG  ]  Could not find any reports in ('/data/Suro/RAM/fastq/',)
+[2019-12-17 16:08:53,681] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 9 reports
+[2019-12-17 16:08:54,686] multiqc.modules.clusterflow.clusterflow            [DEBUG  ]  Could not find any reports in ('/data/Suro/RAM/fastq/',)
+[2019-12-17 16:08:54,688] multiqc                                            [INFO   ]  Report      : ../../data/Suro/RAM/fastq/multiqc_report.html
+[2019-12-17 16:08:54,711] multiqc                                            [INFO   ]  Data        : ../../data/Suro/RAM/fastq/multiqc_data
+[2019-12-17 16:08:54,711] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpocLGCM/multiqc_data/multiqc_fastqc.txt' to '/data/Suro/RAM/fastq/multiqc_data'
+[2019-12-17 16:08:54,712] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpocLGCM/multiqc_data/multiqc_general_stats.txt' to '/data/Suro/RAM/fastq/multiqc_data'
+[2019-12-17 16:08:54,713] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpocLGCM/multiqc_data/multiqc_sources.txt' to '/data/Suro/RAM/fastq/multiqc_data'
+[2019-12-17 16:08:55,012] multiqc                                            [INFO   ]  MultiQC complete
